@@ -6,7 +6,7 @@ variables:
   var2: "Shaik"
 
 pool:
-  vmImage: ubuntu-latest
+  name: mypool
 
 steps:
   - script: echo "Hey $(var1) $(var2)"

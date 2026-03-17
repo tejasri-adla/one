@@ -24,19 +24,6 @@
 		</dependency>
 
 	</dependencies>
-	<repositories> 
-	<repository>
-  <id>myfeed</id>
-  <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/myfeed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-	
-	</repositories> 
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>

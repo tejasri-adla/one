@@ -48,15 +48,6 @@
 		    <url>http://44.210.238.199:8081/repository/myrepo/</url>
 		</repository>
 		<repository>
-  <id>myfeed</id>
-  <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/myfeed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
   	</distributionManagement>
 	
 	<pluginRepositories>

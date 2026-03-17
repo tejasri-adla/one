@@ -13,6 +13,16 @@
 		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
 
 	</properties>
+	<repository>
+  <id>shaikmustafa8991</id>
+  <url>https://pkgs.dev.azure.com/shaikmustafa8991/_packaging/shaikmustafa8991/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 	<dependencies>
 
 		

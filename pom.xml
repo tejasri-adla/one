@@ -4,7 +4,7 @@
 	<groupId>in.javahome</groupId>
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
-	<version>8.7.3</version>
+	<version>8.6.9</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
 	
@@ -25,9 +25,9 @@
 
 	</dependencies>
 	<repositories>
-	<repository>
-  <id>mustafa-feed</id>
-  <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mustafa-feed/maven/v1</url>
+		<repository>
+  <id>mydevops-feed</id>
+  <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mydevops-feed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -41,9 +41,10 @@
 		    <id>nexusRepo</id>
 		    <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
 		 </snapshotRepository>
+		
 		<repository>
-  <id>mustafa-feed</id>
-    <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mustafa-feed/maven/v1</url>
+  <id>mydevops-feed</id>
+  <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mydevops-feed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -60,15 +61,6 @@
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>3.4.0</version> <!-- or latest stable -->
-			</plugin>
-		</plugins>
-	</build>
 
 	
 </project>
